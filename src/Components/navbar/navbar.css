@@ -3,7 +3,7 @@
   }
   
   .navbar-dark .navbar-nav .nav-link-active {
-    color: #00d8ff; /* Adjust to match your specific color */
+    color: #00d8ff; /* Ajusta para que coincida con tu color específico */
   }
   
   .navbar-dark .navbar-brand img {
@@ -11,10 +11,10 @@
   }
   
   .navbar-dark .navbar-nav .nav-link:hover {
-    color: #00d8ff; /* Adjust to match your specific color */
+    color: #00d8ff; /* Ajusta para que coincida con tu color específico */
   }
   
   .navbar-dark {
-    background-color: #1c1e22; /* Adjust to match your specific background color */
+    background-color: #1c1e22; /* Ajusta para que coincida con tu color de fondo específico */
   }
   

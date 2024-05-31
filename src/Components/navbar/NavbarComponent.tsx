@@ -5,9 +5,9 @@ import { Navbar, Nav } from 'react-bootstrap';
 export const NavbarComponent =()=> {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand className="mx-5" href="#home">
         <img
-          src="/logo.png" // Update with your logo path
+          src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" // Actualiza con la ruta de tu logo
           width="30"
           height="30"
           className="d-inline-block align-top"
@@ -16,7 +16,7 @@ export const NavbarComponent =()=> {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
+        <Nav className="ms-auto">
           <Nav.Link href="#home" className="nav-link-active">Home</Nav.Link>
           <Nav.Link href="#shop">Shop</Nav.Link>
           <Nav.Link href="#blog">Blog</Nav.Link>
