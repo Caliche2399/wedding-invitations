@@ -1,0 +1,20 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-dark .navbar-nav .nav-link-active {
+    color: #00d8ff; /* Adjust to match your specific color */
+  }
+  
+  .navbar-dark .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #00d8ff; /* Adjust to match your specific color */
+  }
+  
+  .navbar-dark {
+    background-color: #1c1e22; /* Adjust to match your specific background color */
+  }
+  
