@@ -42,34 +42,34 @@ export const FormComponent = () => {
     return (
         <div id="confirm" className="text-center py-5">
             <h2 className="py-5">Confirma Tu Asistencia</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
+            <form onSubmit={handleSubmit} className="forms-container">
+                <div className="form-group">
                     <input
                         type="text"
                         name="nombre"
-                        className="rounded rounded-4 custom-input"
+                        className="form-control rounded rounded-4 custom-input"
                         placeholder="Nombre"
                         value={formData.nombre}
                         onChange={handleChange}
                         required
                     />
                 </div>
-                <div>
+                <div className="form-group">
                     <input
                         type="text"
                         name="apellido"
-                        className="rounded rounded-4 custom-input"
+                        className="form-control rounded rounded-4 custom-input"
                         placeholder="Apellido"
                         value={formData.apellido}
                         onChange={handleChange}
                         required
                     />
                 </div>
-                <div>
+                <div className="form-group">
                     <input
                         type="tel"
                         name="telefono"
-                        className="rounded rounded-4 custom-input"
+                        className="form-control rounded rounded-4 custom-input"
                         placeholder="Teléfono"
                         value={formData.telefono}
                         onChange={handleChange}

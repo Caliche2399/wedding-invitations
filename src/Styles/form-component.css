@@ -18,3 +18,12 @@
 .custom-button:hover{
     background-color: #47733b;
 }
+
+.forms-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 300px;  /* O el valor que necesites según tu diseño */
+}
