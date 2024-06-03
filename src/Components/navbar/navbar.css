@@ -1,20 +1,29 @@
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
-  }
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
   
-  .navbar-dark .navbar-nav .nav-link-active {
-    color: #00d8ff; /* Ajusta para que coincida con tu color específico */
-  }
-  
-  .navbar-dark .navbar-brand img {
-    margin-right: 10px;
-  }
-  
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: #00d8ff; /* Ajusta para que coincida con tu color específico */
-  }
-  
-  .navbar-dark {
-    background-color: #1c1e22; /* Ajusta para que coincida con tu color de fondo específico */
-  }
-  
+.navbar-light .navbar-nav .nav-link-active {
+  color: rgba(53, 104, 89, 0.63); /* Ajusta para que coincida con tu color específico */
+}
+
+.navbar-light .navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgba(53, 104, 89, 0.63); /* Ajusta para que coincida con tu color específico */
+}
+
+.navbar-custom {
+  background-color: #ffffff;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-toggler {
+  border-color: rgba(0,0,0,.1); /* Ajusta la línea del Toggle */
+}
+
+/* Aquí es donde se define el color del ícono de navbar-toggler */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
