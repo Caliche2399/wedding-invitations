@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {ChangeEvent, FormEvent, useState} from "react";
 import "../../Styles/form-component.css"
 
 export const FormComponent = () => {
@@ -8,7 +8,7 @@ export const FormComponent = () => {
         telefono: ''
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
         const { name, value } = e.target;
         setFormData({
             ...formData,
@@ -16,7 +16,7 @@ export const FormComponent = () => {
         });
     };
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const response = await fetch('https://script.google.com/macros/s/AKfycbx6VwEm2o5PMweSmM0T2zDC8fO6r-6abwOHvGxNlKFUR-WGGnWA8zlZAJ1K5axLFeLnXA/exec', {
             method: 'POST',
