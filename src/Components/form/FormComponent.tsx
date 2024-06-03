@@ -1,4 +1,4 @@
-import {ChangeEvent, FormEvent, useState} from "react";
+import {ChangeEvent, useState} from "react";
 import "../../Styles/form-component.css"
 
 export const FormComponent = () => {
@@ -16,33 +16,12 @@ export const FormComponent = () => {
         });
     };
 
-    const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        const response = await fetch('https://script.google.com/macros/s/AKfycbx6VwEm2o5PMweSmM0T2zDC8fO6r-6abwOHvGxNlKFUR-WGGnWA8zlZAJ1K5axLFeLnXA/exec', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(formData)
-        });
-
-        const result = await response.json();
-        if (result.status === 'success') {
-            alert('Datos enviados exitosamente');
-            setFormData({
-                nombre: '',
-                apellido: '',
-                telefono: ''
-            });
-        } else {
-            alert('Error al enviar los datos');
-        }
-    };
 
     return (
         <div id="confirm" className="text-center py-5">
             <h2 className="py-5">Confirma Tu Asistencia</h2>
-            <form onSubmit={handleSubmit} className="forms-container">
+            <form method="POST" className="forms-container" name="confirmForm" data-netlify="true">
+                <input type="hidden" name="form-name" value="confirmForm"/>
                 <div className="form-group">
                     <input
                         type="text"
