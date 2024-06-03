@@ -7,9 +7,9 @@ export const NavbarComponent =()=> {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Navbar.Brand className="mx-5" href="#home">
         <img
-          src="https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png" // Actualiza con la ruta de tu logo
-          width="30"
-          height="30"
+          src={"/assets/logo/logo-boda-navbar.png"}
+          width="60"
+          height="60"
           className="d-inline-block align-top"
           alt="Logo"
         />
