@@ -2,6 +2,7 @@ import {Col, Row} from "react-bootstrap";
 import "../Styles/SegundaSeccion.css";
 import {Fade} from "react-awesome-reveal";
 import { CgCross } from "react-icons/cg";
+import { TfiLayoutLineSolid } from "react-icons/tfi";
 
 export const SegundaSeccion = () =>{
     return (
@@ -15,13 +16,12 @@ export const SegundaSeccion = () =>{
             </div>
             <div className="d-flex justify-content-center py-5">
                 <p className="text-center custom-parragraph">
-                    Con la gracias de Dios y la bendición de nuestros padres <br/> <br/>
+                    Con la gracia de Dios y la bendición de nuestros padres <br/> <br/>
                     Enma Paniagua Dieguez <br/>
-                    <CgCross/>Cesar Augusto Aguilar Donis <br/>
-                    <span className="custom-spans">(Padres del novio )</span> <br/><br/>
+                    Cesar Augusto Aguilar Donis <CgCross/><br/><br/>
+                    <TfiLayoutLineSolid/> <br/><br/>
                     Yajaira Yanira Torres Salazar <br/>
-                    Fredy Fernando Cardoza Morales <br/>
-                    <span className="custom-spans">(Padres de la novia)</span> <br/><br/><br/>
+                    Fredy Fernando Cardoza Morales <br/><br/><br/>
                     Ahora, pues, permanecen estas tres virtudes: <br/>
                     la fe, la esperanza y el amor. <br/>
                     Pero la más excelente de ellas es el amor <br/>
