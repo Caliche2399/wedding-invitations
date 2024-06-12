@@ -26,7 +26,7 @@ export const FormComponent = () => {
                     <input
                         type="text"
                         name="nombre"
-                        className="form-control rounded rounded-4 custom-input"
+                        className=" rounded rounded-4 custom-input"
                         placeholder="Nombre"
                         value={formData.nombre}
                         onChange={handleChange}
@@ -37,7 +37,7 @@ export const FormComponent = () => {
                     <input
                         type="text"
                         name="apellido"
-                        className="form-control rounded rounded-4 custom-input"
+                        className=" rounded rounded-4 custom-input"
                         placeholder="Apellido"
                         value={formData.apellido}
                         onChange={handleChange}
@@ -48,7 +48,7 @@ export const FormComponent = () => {
                     <input
                         type="tel"
                         name="telefono"
-                        className="form-control rounded rounded-4 custom-input"
+                        className=" rounded rounded-4 custom-input"
                         placeholder="Teléfono"
                         value={formData.telefono}
                         onChange={handleChange}
