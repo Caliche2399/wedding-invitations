@@ -15,7 +15,7 @@ function App() {
         <SeccionPrincipal />
         <SegundaSeccion />
         <CountDownComponent />
-        <CardComponent/>
+        <CardComponent />
         <FormComponent />
         <FloatingButton />
       </>
