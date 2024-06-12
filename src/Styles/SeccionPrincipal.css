@@ -9,6 +9,7 @@
 }
 
 .custom-div-principal{
+    margin-top: 100px;
     margin-bottom: 300px;
 }
 
@@ -49,6 +50,10 @@
 
     .custom-seccion-principal{
         width: 350px;
+    }
+
+    .custom-div-principal{
+        margin-top: 150px;
     }
   }
   
