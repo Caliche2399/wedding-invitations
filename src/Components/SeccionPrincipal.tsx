@@ -14,13 +14,13 @@ export const SeccionPrincipal = () => {
               </div>
               <div className="overlay d-flex flex-column align-items-center justify-content-center">
                   <div>
-                      <span className="d-block text-center">¡Nos Casamos!</span>
+                      <span className="d-block text-center custom-span">¡Nos Casamos!</span>
                   </div>
                   <h1 className="custom-heading-text text-center">
                       Melani y Carlos
                   </h1>
                   <div>
-                      <span className="d-block text-center">27 SEP 25</span>
+                      <span className="d-block text-center custom-span">27 SEP 25</span>
                   </div>
               </div>
           </div>

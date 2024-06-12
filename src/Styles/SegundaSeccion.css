@@ -1,5 +1,8 @@
 .custom-img-segunda {
-    padding-left: 150px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 .floral-card {
@@ -24,9 +27,27 @@
     .floral-card {
         min-height: 300px; /* Adjust height for smaller screens */
     }
+
+    .custom-img-segunda {
+        width: 90%;
+        height: 90%;
+    }
+
+    .custom-img-abajo {
+        width: 500px;
+        height: 200px;
+    }
+
+    .custom-parragraph {
+        font-size: 0.8rem;
+    }
 }
 
 span{
     font-size: 18px;
     color: rgba(101, 101, 101, 0.8);
+}
+
+.custom-parragraph {
+    font-family: Quattrocento;
 }

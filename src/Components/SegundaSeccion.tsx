@@ -8,13 +8,13 @@ export const SegundaSeccion = () =>{
         <Fade delay={300}>
             <div>
                 <Row className="d-flex align-items-end">
-                    <Col className="m-3 rounded rounded-5 d-flex align-items-end">
+                    <Col xs={12} sm={10} md={8} lg={12} xl={12} className="m-3 d-flex align-items-end">
                         <img className="custom-img-segunda" src="/assets/backgroun-images/seccion-arriba.png"/>
                     </Col>
                 </Row>
             </div>
-            <div className="d-flex justify-content-center">
-                <p className="text-center">
+            <div className="d-flex justify-content-center py-5">
+                <p className="text-center custom-parragraph">
                     Con la gracias de Dios y la bendición de nuestros padres <br/> <br/>
                     Enma Paniagua Dieguez <br/>
                     <CgCross/>Cesar Augusto Aguilar Donis <br/>
@@ -30,7 +30,7 @@ export const SegundaSeccion = () =>{
             <div>
                 <Row>
                     <Col className="m-3 rounded rounded-5">
-                        <img src="/assets/backgroun-images/seccion-abajo.png"/>
+                        <img className="custom-img-abajo" src="/assets/backgroun-images/seccion-abajo.png"/>
                     </Col>
                 </Row>
             </div>
