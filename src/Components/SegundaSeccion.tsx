@@ -18,11 +18,12 @@ export const SegundaSeccion = () =>{
                     Con la gracias de Dios y la bendición de nuestros padres <br/> <br/>
                     Enma Paniagua Dieguez <br/>
                     <CgCross/>Cesar Augusto Aguilar Donis <br/>
-                    <span>(Padres del novio )</span> <br/><br/>
+                    <span className="custom-spans">(Padres del novio )</span> <br/><br/>
                     Yajaira Yanira Torres Salazar <br/>
                     Fredy Fernando Cardoza Morales <br/>
-                    <span>(Padres de la novia)</span> <br/><br/><br/>
-                    Ahora, pues, permanecen estas tres virtudes: la fe, la esperanza y el amor. <br/>
+                    <span className="custom-spans">(Padres de la novia)</span> <br/><br/><br/>
+                    Ahora, pues, permanecen estas tres virtudes: <br/>
+                    la fe, la esperanza y el amor. <br/>
                     Pero la más excelente de ellas es el amor <br/>
                     (1 Corintios 13:13)
                 </p>
