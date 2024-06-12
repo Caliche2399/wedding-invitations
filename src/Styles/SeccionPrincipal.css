@@ -3,13 +3,13 @@
     font-size: 150px;
 }
 
-span{
+.custom-span{
     font-family: Quattrocento;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .custom-div-principal{
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
 
 /* SeccionPrincipal.css */

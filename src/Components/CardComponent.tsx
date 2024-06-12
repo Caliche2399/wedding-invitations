@@ -20,7 +20,7 @@ export const CardComponent = () => {
         <Row id="location" className="d-flex justify-content-around mx-2 py-3">
             {/*Tarjeta para la misa */}
             <Col xs={12} md={12} className="mb-3">
-                <Card className=" rounded rounded-5">
+                <Card className="custom-card mx-5 rounded rounded-5">
                     <Card.Body>
                         <div className="text-center">
                             <img className="custom-img" src="/assets/images/iglesia2.png" alt="Logo"/>
@@ -49,7 +49,7 @@ export const CardComponent = () => {
 
             {/*Tarjeta para la fiesta*/}
             <Col xs={12} md={12} className="mb-3">
-                <Card className=" rounded rounded-5 shadow">
+                <Card className="mx-5 custom-card rounded rounded-5 shadow">
                     <Card.Body>
                         <div className="text-center">
                             <img className="custom-img" src="/assets/images/recepcion.png" alt="Logo"/>

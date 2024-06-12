@@ -1,0 +1,53 @@
+.custom-img-segunda {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.floral-card {
+    background: url('/assets/backgroun-images/test.jpeg') no-repeat center center;
+    background-size: cover;
+    min-height: 1500px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-container {
+    height: 100%;
+}
+
+.bg-white {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+@media (max-width: 768px) {
+    .floral-card {
+        min-height: 300px; /* Adjust height for smaller screens */
+    }
+
+    .custom-img-segunda {
+        width: 90%;
+        height: 90%;
+    }
+
+    .custom-img-abajo {
+        width: 500px;
+        height: 200px;
+    }
+
+    .custom-parragraph {
+        font-size: 0.8rem;
+    }
+}
+
+span{
+    font-size: 18px;
+    color: rgba(101, 101, 101, 0.8);
+}
+
+.custom-parragraph {
+    font-family: Quattrocento;
+}
