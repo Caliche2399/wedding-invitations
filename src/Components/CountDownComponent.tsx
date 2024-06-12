@@ -1,4 +1,4 @@
-import Countdown from 'react-countdown-now';
+import Countdown from 'react-countdown';
 import {Badge, Row} from "react-bootstrap";
 import "../Styles/countdown.css";
 import {Slide} from "react-awesome-reveal";
