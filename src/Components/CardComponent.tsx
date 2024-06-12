@@ -49,7 +49,7 @@ export const CardComponent = () => {
 
             {/*Tarjeta para la fiesta*/}
             <Col xs={12} md={12} className="mb-3">
-                <Card className="mx-5 custom-card rounded rounded-5 shadow">
+                <Card className="mx-5 custom-card rounded rounded-5">
                     <Card.Body>
                         <div className="text-center">
                             <img className="custom-img" src="/assets/images/recepcion.png" alt="Logo"/>
