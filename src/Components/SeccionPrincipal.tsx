@@ -6,7 +6,7 @@ export const SeccionPrincipal = () => {
         <div className="custom-seccion-principal">
             <img 
                 className="custom-seccion-principal"
-                src="/src/assets/backgroun-images/fondo-seccion-1.png" 
+                src="/assets/backgroun-images/fondo-seccion-1.png"
                 alt="Fondo de flores corintas"
             />
         </div>
