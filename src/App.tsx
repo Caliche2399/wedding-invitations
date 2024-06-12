@@ -1,10 +1,10 @@
 import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {CardComponent} from "./Components/CardComponent.tsx";
 import {FormComponent} from "./Components/form/FormComponent.tsx";
 import {FloatingButton} from "./Components/FloatingButton.tsx";
 import { SeccionPrincipal } from './Components/SeccionPrincipal.tsx';
 import {SegundaSeccion} from "./Components/SegundaSeccion.tsx";
+import {CountDownComponent} from "./Components/CountDownComponent.tsx";
 
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <>
         <SeccionPrincipal />
         <SegundaSeccion />
+        <CountDownComponent />
         <CardComponent />
         <FormComponent />
         <FloatingButton />
