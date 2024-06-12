@@ -1,0 +1,54 @@
+.custom-heading-text {
+    font-family: waterfall;
+    font-size: 150px;
+}
+
+span{
+    font-family: Quattrocento;
+    font-size: 40px;
+}
+
+.custom-div-principal{
+    margin-bottom: 200px;
+}
+
+/* SeccionPrincipal.css */
+
+.seccion-principal {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .custom-heading-text {
+      font-size: 100px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .custom-heading-text {
+      font-size: 80px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    .custom-seccion-principal{
+        width: 350px;
+    }
+  }
+  

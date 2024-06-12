@@ -19,8 +19,8 @@ export const CardComponent = () => {
     return (
         <Row id="location" className="d-flex justify-content-around mx-2 py-3">
             {/*Tarjeta para la misa */}
-            <Col xs={12} md={5} className="mb-3">
-                <Card className=" rounded rounded-5 shadow">
+            <Col xs={12} md={12} className="mb-3">
+                <Card className=" rounded rounded-5">
                     <Card.Body>
                         <div className="text-center">
                             <img className="custom-img" src="/assets/images/iglesia2.png" alt="Logo"/>
@@ -48,7 +48,7 @@ export const CardComponent = () => {
             </Col>
 
             {/*Tarjeta para la fiesta*/}
-            <Col xs={12} md={5} className="mb-3">
+            <Col xs={12} md={12} className="mb-3">
                 <Card className=" rounded rounded-5 shadow">
                     <Card.Body>
                         <div className="text-center">

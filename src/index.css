@@ -1,0 +1,14 @@
+
+body {
+    display: flex;
+    justify-content: center; /* Centra el contenido */
+    padding: 20px; /* Añade un pequeño margen alrededor del contenido */
+}
+
+.container {
+    width: 800px; /* Define el ancho del contenido */
+    max-width: 100%; /* Asegura que el contenido no se desborde en pantallas más pequeñas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Opcional: Añade una sombra para destacar el contenido */
+    background-color: #fff; /* Opcional: Añade un color de fondo al contenedor */
+    padding: 20px; /* Añade un relleno interno */
+}
