@@ -1,0 +1,32 @@
+.custom-img-segunda {
+    padding-left: 150px;
+}
+
+.floral-card {
+    background: url('/assets/backgroun-images/test.jpeg') no-repeat center center;
+    background-size: cover;
+    min-height: 1500px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-container {
+    height: 100%;
+}
+
+.bg-white {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+}
+
+@media (max-width: 768px) {
+    .floral-card {
+        min-height: 300px; /* Adjust height for smaller screens */
+    }
+}
+
+span{
+    font-size: 18px;
+    color: rgba(101, 101, 101, 0.8);
+}
