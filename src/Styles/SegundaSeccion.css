@@ -39,7 +39,7 @@
     }
 
     .custom-parragraph {
-        font-size: 0.8rem;
+        font-size: 20px;
     }
 
     .custom-spans{
@@ -54,4 +54,5 @@
 
 .custom-parragraph {
     font-family: Quattrocento;
+
 }

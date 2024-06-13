@@ -16,16 +16,13 @@ export const SegundaSeccion = () =>{
             </div>
             <div className="d-flex justify-content-center py-5">
                 <p className="text-center custom-parragraph">
-                    Con la gracia de Dios y la bendición de nuestros padres <br/> <br/>
+                    Con la gracia de Dios <br/>
+                    y la bendición de nuestros padres <br/> <br/>
                     Enma Paniagua Dieguez <br/>
                     Cesar Augusto Aguilar Donis <CgCross/><br/><br/>
                     <TfiLayoutLineSolid/> <br/><br/>
                     Yajaira Yanira Torres Salazar <br/>
                     Fredy Fernando Cardoza Morales <br/><br/><br/>
-                    Ahora, pues, permanecen estas tres virtudes: <br/>
-                    la fe, la esperanza y el amor. <br/>
-                    Pero la más excelente de ellas es el amor <br/>
-                    (1 Corintios 13:13)
                 </p>
             </div>
             <div>
