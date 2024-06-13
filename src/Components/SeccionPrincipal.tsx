@@ -1,5 +1,5 @@
 import "../Styles/SeccionPrincipal.css";
-import {Fade, Roll, Zoom} from "react-awesome-reveal";
+import { Roll, Zoom} from "react-awesome-reveal";
 
 export const SeccionPrincipal = () => {
   return (
