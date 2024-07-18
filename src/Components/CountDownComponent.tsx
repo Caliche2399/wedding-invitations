@@ -33,7 +33,7 @@ export const CountDownComponent = () => {
 
     return (
         <Countdown
-            date={new Date('2025-09-27T00:00:00')}
+            date={new Date('2025-10-04T00:00:00')}
             renderer={renderer}
         />
     );

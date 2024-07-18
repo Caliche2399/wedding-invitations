@@ -32,7 +32,7 @@ export const SeccionPrincipal = () => {
                            src="https://www.bodas502.com/wp-content/uploads/2023/02/rama_beige.png"/>
                   </Roll>
                   <div className="py-4">
-                      <span className="d-block text-center custom-span">27 - SEP - 25</span>
+                      <span className="d-block text-center custom-span">04 - OCT - 25</span>
                   </div>
               </div>
           </div>
