@@ -11,14 +11,14 @@ import {CountDownComponent} from "./Components/CountDownComponent.tsx";
 function App() {
 
   return (
-      <>
+      <div className="contenedor-principal">
         <SeccionPrincipal />
         <SegundaSeccion />
         <CountDownComponent />
         <CardComponent />
         <FormComponent />
         <FloatingButton />
-      </>
+      </div>
   );
 }
 
