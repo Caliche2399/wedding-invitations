@@ -18,11 +18,11 @@ export const SegundaSeccion = () =>{
                 <p className="text-center custom-parragraph">
                     Con la gracia de Dios <br/>
                     y la bendición de nuestros padres <br/> <br/>
-                    Enma Paniagua Dieguez <br/>
-                    Cesar Augusto Aguilar Donis <CgCross/><br/><br/>
-                    <TfiLayoutLineSolid/> <br/><br/>
                     Yajaira Yanira Torres Salazar <br/>
                     Fredy Fernando Cardoza Morales <br/><br/><br/>
+                    <TfiLayoutLineSolid/> <br/><br/>
+                    Enma Paniagua Dieguez <br/>
+                    Cesar Augusto Aguilar Donis <CgCross/><br/><br/>
                 </p>
             </div>
             <div>

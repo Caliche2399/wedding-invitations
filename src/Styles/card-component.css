@@ -1,13 +1,13 @@
-.button {
-    border: none;
+.custom-button {
+    border: 1px solid transparent !important;
     cursor: pointer;
     outline: none;
-    background-color: transparent;
+    background-color: transparent !important;
     padding: 0;
-    margin: 15px;
+    width: 100px !important;
 }
 
-.button img {
+.custom-button img {
     width: 40px;
     height: 40px;
 }

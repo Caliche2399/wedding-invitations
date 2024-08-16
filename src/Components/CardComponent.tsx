@@ -19,7 +19,7 @@ export const CardComponent = () => {
     return (
         <Row id="location" className="d-flex justify-content-around mx-2 py-3">
             {/*Tarjeta para la misa */}
-            <Col xs={12} md={12} className="mb-3">
+            <Col xs={12} md={6} lg={6} className="mb-3">
                 <Card className="custom-card mx-5 rounded rounded-5">
                     <Card.Body>
                         <div className="text-center">
@@ -35,11 +35,11 @@ export const CardComponent = () => {
                         </Card.Text>
 
                         <div className="d-flex justify-content-center">
-                            <Button className="button" onClick={() => handleGoogleMapClick()}>
+                            <Button className="custom-button" onClick={() => handleGoogleMapClick()}>
                                 <img src="/assets/logo/google-map.png" alt="Google Maps" />
                             </Button>
 
-                            <Button className="button" onClick={() => handleWazeClick(14.615716, -90.5144297)}>
+                            <Button className="custom-button" onClick={() => handleWazeClick(14.615716, -90.5144297)}>
                                 <img src="/assets/logo/waze.png" alt="Waze" />
                             </Button>
                         </div>
@@ -48,7 +48,7 @@ export const CardComponent = () => {
             </Col>
 
             {/*Tarjeta para la fiesta*/}
-            <Col xs={12} md={12} className="mb-3">
+            <Col xs={12}  md={6} lg={6} className="mb-3">
                 <Card className="mx-5 custom-card rounded rounded-5">
                     <Card.Body>
                         <div className="text-center">
@@ -62,11 +62,11 @@ export const CardComponent = () => {
                             18:00 - 23:00
                         </Card.Text>
                         <div className="d-flex justify-content-center">
-                            <Button className="button" onClick={() => handleReceptionGoogleMapClick()}>
+                            <Button className="custom-button" onClick={() => handleReceptionGoogleMapClick()}>
                                 <img src="/assets/logo/google-map.png" alt="Google Maps"/>
                             </Button>
 
-                            <Button className="button" onClick={() => handleWazeClick(14.5435991, -90.4247486)}>
+                            <Button className="custom-button" onClick={() => handleWazeClick(14.5435991, -90.4247486)}>
                                 <img src="/assets/logo/waze.png" alt="Waze"/>
                             </Button>
                         </div>
